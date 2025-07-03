@@ -64,6 +64,13 @@ section {
   padding: 1.5rem;
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  
+}
+.work-link{
+  text-decoration: none;
+}
+.work-link :hover{
+  text-decoration: underline;
 }
 
 form input, form textarea {
