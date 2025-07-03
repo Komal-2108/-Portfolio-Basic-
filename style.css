@@ -66,6 +66,23 @@ section {
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   
 }
+a{
+  text-decoration: none;
+  color: #0f766e;
+}
+a:hover{
+  text-decoration: underline;
+  color: #0f766e;
+}
+
+.certify-cards {
+  background: white;
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  
+}
 .work-link{
   text-decoration: none;
 }
@@ -88,6 +105,21 @@ form button {
   border: none;
   border-radius: 6px;
 }
+.social-info {
+  font-size: 1.5rem; /* Increase size */
+}
+
+.social-info a {
+  color: #222; /* Make links not blue */
+  text-decoration: none;
+}
+
+.social-info i {
+  font-size: 1.5rem; /* Directly set icon size if needed */
+  color: #222; /* Color for icon itself */
+  margin-right: 1rem; /* Optional spacing between icons */
+}
+
 
 footer {
   text-align: center;
